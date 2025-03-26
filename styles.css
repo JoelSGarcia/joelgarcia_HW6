@@ -1,0 +1,179 @@
+/* Reset default margins and padding for consistency across browsers */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Style the body with a modern font and background */
+body {
+  font-family: "Roboto", Arial, sans-serif;
+  line-height: 1.6;
+  background-color: #f9f9f9;
+  color: #333;
+}
+
+/* Style the header with a gradient background */
+header {
+  background: linear-gradient(to right, #1a3c34, #2e856e);
+  color: white;
+  text-align: center;
+  padding: 30px 20px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Style the main heading */
+h1 {
+  font-size: 2.8em;
+  margin-bottom: 15px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+/* Style the subheadings */
+h2 {
+  font-size: 1.8em;
+  color: #1a3c34;
+  margin: 30px 0 15px;
+  border-bottom: 2px solid #2e856e;
+  padding-bottom: 5px;
+}
+
+/* Style the navigation links */
+nav {
+  margin-top: 10px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  font-size: 1.1em;
+  margin: 0 15px;
+  padding: 5px 10px;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+nav a:hover {
+  background-color: #2e856e;
+}
+
+/* Style the main content container */
+main {
+  max-width: 900px;
+  margin: 40px auto;
+  padding: 0 20px;
+}
+
+/* Style the hero section with the photo */
+.hero {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.hero-image {
+  max-width: 100%;
+  height: auto;
+  border: 5px solid #2e856e;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  margin-bottom: 10px;
+}
+
+.caption {
+  font-style: italic;
+  color: #666;
+}
+
+/* Style the content sections */
+.content {
+  background-color: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+  margin-bottom: 20px;
+}
+
+/* Style paragraphs */
+p {
+  margin-bottom: 15px;
+  font-size: 1.05em;
+}
+
+/* Style the table */
+.styled-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+  font-size: 1em;
+}
+
+.styled-table th,
+.styled-table td {
+  border: 1px solid #ddd;
+  padding: 12px 15px;
+  text-align: left;
+}
+
+.styled-table th {
+  background-color: #1a3c34;
+  color: white;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.styled-table tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+.styled-table tr:hover {
+  background-color: #e6f0ea;
+}
+
+/* Style the unordered list for quotes */
+.quote-list {
+  list-style-type: disc;
+  margin-left: 30px;
+  margin-bottom: 20px;
+}
+
+.quote-list li {
+  margin-bottom: 10px;
+  font-size: 1.05em;
+}
+
+/* Custom CSS class for highlighting a quote */
+.highlight {
+  background-color: #ffeb3b;
+  padding: 5px 10px;
+  border-radius: 5px;
+  font-style: italic;
+  display: inline-block;
+}
+
+/* Style links within the content */
+a {
+  color: #2e856e;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Style the footer */
+footer {
+  background: linear-gradient(to right, #1a3c34, #2e856e);
+  color: white;
+  text-align: center;
+  padding: 15px;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+  box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1);
+}
+
+footer p {
+  margin: 0;
+  font-size: 0.9em;
+}
